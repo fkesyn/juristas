@@ -34,6 +34,9 @@ export default {
    */
   css: ['~/assets/style/app.styl'],
 
+  router: {
+    middleware: 'auth'
+  },
   /*
    ** Plugins to load before mounting the App
    */
